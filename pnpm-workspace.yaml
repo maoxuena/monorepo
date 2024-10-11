@@ -1,0 +1,5 @@
+packages:
+  # 各种公共模块
+  - 'packages/*'
+  # 各种项目
+  - 'apps/*'

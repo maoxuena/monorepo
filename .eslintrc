@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends":[
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error", // 打开 prettier 插件提供的规则，该插件从 ESLint 内运行 Prettier
+    // 这2条规则会引起冲突，所以关闭
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
+  }
+}
