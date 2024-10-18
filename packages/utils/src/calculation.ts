@@ -13,11 +13,12 @@
  * @param {number} b
  * @return {number}
  */
-export const add = (a: number, b: number): number => a + b;
+export const add = (a: number, b: number): number => a + b
 
 /**
  * @Description: 计算数组平均值
  * @param {number[]} arr
  * @return {number}
  */
-export const average = (arr: number[]): number => arr.reduce((a, b) => a + b) / arr.length;
+export const average = (arr: number[]): number =>
+  arr.reduce((a, b) => a + b) / arr.length
